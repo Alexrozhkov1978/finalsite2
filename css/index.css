@@ -9,10 +9,6 @@ body {
     background-position: center;
 }
 
-/*header  .navbar-expand-sm {
-    justify-content:center;
-}
-*/
 header .bg-light {
     background-color: #ffeb3b03!important;
 } 
@@ -151,7 +147,6 @@ main   .about-villas-txt {
     list-style-type: none;
 }
 
-
 main .beachesFotoSt {
     border: ridge;
     position	: relative;
@@ -165,9 +160,7 @@ main .beachesFotoPr {
     position	: relative;
     left: 10%;
 	width: 80%;
-	
 }
-
 
 main .all-data-friendlylinks {
     display: grid;
@@ -204,29 +197,59 @@ main .href-text:hover {
     color: white;
 }
 
+main #c1 {
+    grid-area: c1;
+}
+main #c2 {
+    grid-area: c2;
+}
+main #c3 {
+    grid-area: c3;
+}
+main #c4 {
+    grid-area: c4;
+}
+main #c5 {
+    grid-area: c5;
+}
+main #c6 {
+    grid-area: c6;
+}
+main #c7 {
+    grid-area: c7;
+}
+main #c8 {
+    grid-area: c8;
+}
+main #c9 {
+    grid-area: c9;
+}
+main #c10 {
+    grid-area: c10;
+}
+main #c11 {
+    grid-area: c11;
+}
+
 main .all-data-contacts {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: 40px 1fr;
+    grid-template-columns: 40px 40px 40px 40px 40px 1fr;
+    grid-template-rows: 30px 30px 30px 30px;
     font-family: 'Mali', cursive;
     font-size: 0.6rem;
     align-items: center;
     margin-left: 10px;
-}
-
+    grid-template-areas: 
+        "c1 c2 c2 c2 c2"
+        "c3 c4 c4 c4 c4"
+        "c5 c6 c6 c6 c6"
+       "c7 c8 c9 c10 c11"
+}        
+ 
 main .img-icon-contacts {
     height: 26px;
     width: 26px;
-}
-
-main .contacts-tel{
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 20px 20px 20px 20px 1fr;
-    font-family: 'Mali', cursive;
-    font-size: 0.6rem;
-    align-items: center;
-    margin-left: 10px;
 }
 
 main  .content-in-form{
@@ -273,12 +296,22 @@ main .but-submit:hover {
     height: 5rem;
 }
 
+main .about-villas-txt-desctop{
+    position: absolute;
+	left: -10000px;
+}
+
+main .txt-Lumbarda-forDesctop{
+    position: absolute;
+	left: -10000px;
+}
+
+
 footer .text-footer {
     font-family: 'Mali', cursive;
     font-size: 0.8rem;
     margin-left: 10px;
 }
-
 
 /*-- Modal --*/
 
@@ -294,7 +327,6 @@ footer .text-footer {
     outline: none;
 }
 
-
 #moreAboutLumbardaTitle, #moreAboutVillaCebaloTitle, #moreAboutVillaSocolTitle{
     font-family: 'Mali', cursive;
     text-align: left;
@@ -302,7 +334,6 @@ footer .text-footer {
     text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
     margin: 5px 0px 5px 5px;
 }
-
 
 .moreFotoBeaches{
     display: grid;
@@ -312,7 +343,6 @@ footer .text-footer {
 }
 
 .beachesFotosMore {
-    
     position: relative;
     width: 100%;
     margin-top: 5px;
@@ -320,36 +350,31 @@ footer .text-footer {
 
 /*-- Modal --*/
 
+@media (min-width: 350px) {
 
 
-.blokimg {
-	position: relative;
+main .all-data-contacts {
+    font-size: 0.7rem;
+    margin-left: 10px;
 }
 
-.overlay{
-	display: none;
-	height: auto;
-	position: absolute;
-	width: auto;
-	z-index: 999;
+main .img-icon-contacts {
+    height: 28px;
+    width: 28px;
+}
 }
 
-.overlay .overlay_container{
-	display: table-cell;
-	vertical-align: middle;
-}
+@media (min-width: 410px) {
+    
+main .all-data-contacts {
+    font-size: 0.9rem;
+    }
 
-	.overlay_container img{
-	background-color: #6ac199;
-	padding: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
+main .img-icon-contacts {
+    height: 36px;
+    width: 36px;
 }
-	.overlay:target{
-	display: table;
 }
-
-
 
 
 
@@ -362,7 +387,7 @@ header  .header-nav-grid {
     
 }
 
-header .nav-link{
+header .navbar-light .navbar-nav .nav-link {
     color: #2874A6;
     font-family: 'Bangers', sans-serif;
     text-decoration: none;
@@ -375,75 +400,325 @@ header .header-all-grid {
        width: 100%;
 }
 
-.navbar-nav {
+header .navbar-nav {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: flex!important;
+    justify-content:space-between;
+}    
+
+header .nav-item {
+    text-align: center;
+}
+}
+
+
+@media (min-width: 577px) {
+    
+main .all-data-contacts {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 40px 40px 40px 40px 40px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+}
+
+main .about-villas-txt-desctop{
+    position: relative;
+	left: 0px;
+}
+    
+main .txt-Lumbarda-forDesctop{
+    position: relative;
+	left: 0px;
+}
+
+main #butLumbardaNotForDesc{
+    position: absolute;
+	left: -10000px;
+}
+
+main #butVilaCebaloNotForDesc{
+    position: absolute;
+	left: -10000px;
+}
+
+main #butVilaSocolNotForDesc{
+    position: absolute;
+	left: -10000px;
+}
+
+
+main .txtNotforDesctop{
+    display:none;
+} 
+
+main .about-villas-txt {
+    margin-bottom: 5px;
+    
+}
+
+main .about-txt-Lumbarda{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+
+main #villaCebaoForDesc{
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: 48% 48%;
+}
+
+
+main #villaCebaoForDescTxt{
+    display:block;
+}
+
+main .villaFotoCebalo {
+    display:block;
+    width: 140%;
+    left: 0%;
+    height: auto;
+    align-content:center;
+}    
+    
+main .cropVilla {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+    
+    
+main #gridAreaASocolVila{
+    grid-area: rightpart;
+} 
+
+main #villaSocolForDescTxt{
+    grid-area: leftpart;
+} 
+
+main #villaSocolForDesc{
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: 48% 48%;
+    grid-template-areas: 
+        "leftpart rightpart";
+    
+}
+
+main #villaSocolForDescTxt{
+    display:block;
+}
+
+main .villaFotoSocol {
+    display:block;
+    width: 140%;
+    left: 0%;
+    height: auto;
+    align-content:center;
+}    
+    
+
+main .about-txt-beaches
+{
+    display:block;
+}
+
+
+main #fotoPrinDiv {
+    grid-area: part1;
+} 
+
+main #fotoStinDiv {
+    grid-area: part2;
+
+}
+
+main .all-data-about-beaches{
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: 49% 49%;
+        grid-template-areas: 
+        "part1 part2";
+
+}
+
+
+main .beachesFotoSt {
+    display:block;
+    width: 140%;
+    left: 0%;
+    margin-top: 0;
+    height: auto;
+    align-content:center;
+
+}
+
+main .beachesFotoPr {
+    display:block;
+    width: 140%;
+    left: 0%;
+    height: auto;
+    align-content:center;
+}    
+    
+main #fotoPrinDiv {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}    
+
+main #fotoStinDiv {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}    
+
+main #btn-beachSt{
+    margin-top: 20px;
 
 }    
+    
+}    
+
+
+@media (min-width: 750px) {
+
+main  .btn {
+    font-weight: 100;
+    font-size: 1.1rem;
+    padding: .1rem .1rem;
+    width: 100%;
+}
+
+    
+header .wrapper {
+    font-size: 2rem;
+    }
+
+header .navbar-light .navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+
+main .headers-on-site {
+    font-size: 1.6rem;
+}
+
+main .about-txt-Lumbarda {
+    font-size: 0.9rem;
+}
+
+main .about-villas-txt {
+    font-size: 0.9rem;
+}
+
+main .about-txt-beaches {
+    font-size: 0.9rem;
+}    
+    
+main .href-text {
+    font-size: 1.1rem;
+}    
+
+main .img-icon-contacts {
+    height: 40px;
+    width: 40px;
+}
+
+main .all-data-contacts {
+    font-size: 1.1rem;
+}    
+
+main .content-in-form  {
+    font-size: 1.1rem;
+}    
+
+
+main .all-data-friendlylinks{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 180px 1fr;
+    
+}
+
+main .button-friendlylinks{
+    font-size: 1rem;
+    width: 130px;
+    max-height: 35px;
+    
+}
+
+main .but-submit{
+    font-size: 1rem;
+    width: 130px;
+    max-height: 35px;
+
+}
+
+}
+
+@media (min-width: 800px) {
+
+
+main .all-data-contacts {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 40px 1fr 40px 40px 40px 40px 1fr;
+    grid-template-rows: 50px 50px;
+    font-family: 'Mali', cursive;
+    font-size: 0.9rem;
+    align-items: center;
+    margin-left: 10px;
+    grid-template-areas: 
+        "c1 c2 c3 c4 c4 c4 c4"
+        "c5 c6 c7 c8 c9 c10 c11"
+       
+}
+}
+
+    
+@media (min-width: 900px) {
+
+
+main .all-data-contacts {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 40px 1fr 40px 40px 40px 40px 1fr;
+    grid-template-rows: 50px 50px;
+    font-family: 'Mali', cursive;
+    font-size: 1rem;
+    align-items: center;
+    margin-left: 10px;
+    grid-template-areas: 
+        "c1 c2 c3 c4 c4 c4 c4"
+        "c5 c6 c7 c8 c9 c10 c11"
+       
+}
+
+main  .content-in-form{
+    display: grid;
+    margin-top: 10px;
+    grid-gap: 5px;
+    grid-template-columns: 400px fr;
+    grid-template-rows: 50px fr;
+    font-family: 'Mali', cursive;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 0.9rem;
+    align-items: center;
+    margin-left: 10px;
+    background: #D2F1F4;
+}
+
+main .block-but-submit {
+    display: flex;
+    justify-content: center;
+}
 
 
     
 }
 
+ 
 
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-@media (min-width: 575px) {
-
-header .header-nav-grid {
-    width: 100%;
-    display: block;
-    }
-
-header .header-nav-grid{
-    text-align: center;
-}
-
-header .navbar-light .navbar-nav .nav-link {
-    color: #2874A6;
-    font-family: 'Bangers', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: normal;
-}
-
-header .nav-bar {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-header .nav-link:hover {
-    text-decoration: underline;
-}
-
-}
-
-@media (min-width: 750px) {
-
-header .header-nav-grid {
-    width: 100%;
-    display: block;
-    text-align: center;
-    }
-}
-
-
-
-*/
