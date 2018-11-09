@@ -184,28 +184,32 @@
               <div id = "c4"><a href="https://www.instagram.com//lumbardaH888/"> https://www.instagram.com//lumbardaH888/ </a></div>
             <img class="img-icon-contacts" id = "c5" src="img/icon-email.png" alt="icon-email" > 
               <div id = "c6"><a href="mailto:lumbardaH888@gmail.com"> lumbardaH888@gmail.com </a></div>
-          <!--</div>    -->
-          <!--<div class="contacts-tel"> -->
             <img id = "c7" class="img-icon-contacts" src="img/icon-telegram.jpg" alt="telegram" >
             <img id = "c8" class="img-icon-contacts" src="img/icon-viber.jpg" alt="icon-viber" >
             <img id = "c9" class="img-icon-contacts" src="img/icon-whatsup.png" alt="icon-whatsup" >
             <img id = "c10" class="img-icon-contacts" src="img/icon-telephone.jpg" alt="icon-telephone" >
             <div id = "c11"><a href="tel:+3788888888888888"> +3788888888888888 </a> </div>
           </div>
-        <h2 class="headers-on-site">Book now! or Fast message to us</h2>
-        <form class = 'contact-form'>
-          <label class="content-in-form"> Your name:
-            <input type="text" name="your-name" placeholder="Your name" required="">
-          </label>
-          <label class="content-in-form"> Your Email address:
-            <input type="email" name="client-email" placeholder="Your Email Address" required="">
-          </label> 
-            <label class="content-in-form">Your Message:
-              <textarea id="textarea" name="msg" maxlength="140" rows="1" placeholder="Your massage" required="" ></textarea>
-            </label>
-            <label class="block-but-submit" > 
-              <input class="but-submit" type="submit" value="S e n d">
-            </label> 
+        <h2 class="headers-on-site" id="headerForm" > Book now! or Fast message to us</h2>
+        <form class = "contact-form" method="POST" action="https://formspree.io/alexshura@gmail.com">
+          <div class="content-in-form" id="f1"> Your name:
+          </div>
+          <div id="f2">
+              <input class = "inputForm" type="text" name="your-name" placeholder="Your name" required="">
+          </div>
+          <div class="content-in-form" id="f3"> Your Email address:
+          </div>
+          <div id="f4">
+          <input class = "inputForm" type="email" name="client-email" placeholder="Your Email Address" required="">
+          </div>
+          <div class="content-in-form" id="f5">Your Message:
+          </div>
+          <div id="f6">
+          <textarea id="textarea" name="msg" maxlength="140" rows="1" placeholder="Your massage" required="" ></textarea>
+          </div>
+          <div id="f7" class="block-but-submit" > 
+          <input class="but-submit" type="submit" value="S e n d">
+          </div> 
           </form>
       
     <!-- Modal -->
