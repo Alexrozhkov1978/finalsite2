@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers');
-@import url('https://fonts.googleapis.com/css?family=Mali');
-
+@import url('https://fonts.googleapis.com/css?family=Bangers'); @import url('https://fonts.googleapis.com/css?family=Mali'); 
 body {
     max-width: 900px;
     margin: auto;
@@ -11,9 +9,9 @@ body {
 
 header .bg-light {
     background-color: #ffeb3b03!important;
-} 
+}
 
-header  .container {
+header .container {
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
@@ -22,14 +20,14 @@ header  .container {
     max-width: 990px;
 }
 
-header  .header-nav-grid {
+header .header-nav-grid {
     width: 100%;
     display: grid;
     grid-gap: 2px;
     grid-template-columns: 1fr 60px;
 }
 
-header  .navbar-brand {
+header .navbar-brand {
     margin-right: 0;
     white-space: normal;
 }
@@ -39,10 +37,10 @@ header p {
     margin-bottom: 0rem;
 }
 
-header .butnav-in-grid{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+header .butnav-in-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .wrapper {
@@ -101,16 +99,16 @@ main .btn-primary {
     border-color: hsl(200, 48%, 31%);
 }
 
-main .buttonIntxtBeaches{
+main .buttonIntxtBeaches {
     position: relative;
     right: 2rem;
 }
 
 main #btn-beaches {
-    width:100%;
+    width: 100%;
 }
 
-main  .btn {
+main .btn {
     font-weight: 100;
     font-size: 0.8rem;
     padding: .1rem .1rem;
@@ -125,16 +123,16 @@ main .headers-on-site {
     text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
 }
 
-main    .villaFotoSocol, .villaFotoCebalo {
+main .villaFotoSocol, .villaFotoCebalo {
     border: ridge;
-    position	: relative;
+    position : relative;
     left: 10%;
-	width: 80%;
-	height :80%;
-	bottom: 9px;
+    width: 80%;
+    height : 80%;
+    bottom: 9px;
 }
 
-main   .about-villas-txt {
+main .about-villas-txt {
     text-indent: 2rem;
     font-family: 'Mali', cursive;
     text-align: justify ;
@@ -149,17 +147,17 @@ main   .about-villas-txt {
 
 main .beachesFotoSt {
     border: ridge;
-    position	: relative;
+    position : relative;
     left: 10%;
-	width: 80%;
-	margin-top: 20px;
+    width: 80%;
+    margin-top: 20px;
 }
 
 main .beachesFotoPr {
     border: ridge;
-    position	: relative;
+    position : relative;
     left: 10%;
-	width: 80%;
+    width: 80%;
 }
 
 main .all-data-friendlylinks {
@@ -180,9 +178,9 @@ main .button-friendlylinks {
     font-size: 12px;
     margin: 10px 10px;
     cursor: pointer;
-    background-color: white; 
-    color: #707B7C; 
-    border: 2px solid #154360;   
+    background-color: white;
+    color: #707B7C;
+    border: 2px solid #154360;
     width: 100px;
     max-height: 28px;
 }
@@ -200,33 +198,43 @@ main .href-text:hover {
 main #c1 {
     grid-area: c1;
 }
+
 main #c2 {
     grid-area: c2;
 }
+
 main #c3 {
     grid-area: c3;
 }
+
 main #c4 {
     grid-area: c4;
 }
+
 main #c5 {
     grid-area: c5;
 }
+
 main #c6 {
     grid-area: c6;
 }
+
 main #c7 {
     grid-area: c7;
 }
+
 main #c8 {
     grid-area: c8;
 }
+
 main #c9 {
     grid-area: c9;
 }
+
 main #c10 {
     grid-area: c10;
 }
+
 main #c11 {
     grid-area: c11;
 }
@@ -240,13 +248,9 @@ main .all-data-contacts {
     font-size: 0.6rem;
     align-items: center;
     margin-left: 10px;
-    grid-template-areas: 
-        "c1 c2 c2 c2 c2"
-        "c3 c4 c4 c4 c4"
-        "c5 c6 c6 c6 c6"
-       "c7 c8 c9 c10 c11"
-}        
- 
+    grid-template-areas: "c1 c2 c2 c2 c2" "c3 c4 c4 c4 c4" "c5 c6 c6 c6 c6" "c7 c8 c9 c10 c11"
+}
+
 main .img-icon-contacts {
     height: 26px;
     width: 26px;
@@ -255,27 +259,33 @@ main .img-icon-contacts {
 main #f1 {
     grid-area: f1;
 }
+
 main #f2 {
     grid-area: f2;
 }
+
 main #f3 {
     grid-area: f3;
 }
+
 main #f4 {
     grid-area: f4;
 }
+
 main #f5 {
     grid-area: f5;
 }
+
 main #f6 {
     width: 100%;
     grid-area: f6;
 }
+
 main #f7 {
     grid-area: f7;
 }
 
-main .contact-form{
+main .contact-form {
     display: grid;
     margin-top: 10px;
     grid-gap: 5px;
@@ -286,27 +296,19 @@ main .contact-form{
     text-align: left;
     font-size: 0.9rem;
     margin-left: 10px;
-    grid-template-areas: 
-        ". f1 ."
-        ". f2 ."
-        ". f3 ."
-        ". f4 ."
-        ". f5 ."
-        ". f6 ."
-        ". f7 ."
-}        
+    grid-template-areas: ". f1 ." ". f2 ." ". f3 ." ". f4 ." ". f5 ." ". f6 ." ". f7 ."
+}
 
 main #headerForm {
     margin: 40px 40px 40px 40px;
 }
-
 
 main .block-but-submit {
     display: flex;
     justify-content: center;
 }
 
-main  .but-submit {
+main .but-submit {
     padding: 3px 3px;
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -314,9 +316,9 @@ main  .but-submit {
     font-size: 14px;
     margin: 20px;
     cursor: pointer;
-    background-color: white; 
-    color: #707B7C; 
-    border: 2px solid #154360;   
+    background-color: white;
+    color: #707B7C;
+    border: 2px solid #154360;
     width: 100px;
     max-height: 28px;
 }
@@ -331,21 +333,19 @@ main #textarea {
     width: 100%
 }
 
-main .inputForm{
+main .inputForm {
     width: 100%
 }
 
-
-main .about-villas-txt-desctop{
+main .about-villas-txt-desctop {
     position: absolute;
-	left: -10000px;
+    left: -10000px;
 }
 
-main .txt-Lumbarda-forDesctop{
+main .txt-Lumbarda-forDesctop {
     position: absolute;
-	left: -10000px;
+    left: -10000px;
 }
-
 
 footer .text-footer {
     font-family: 'Mali', cursive;
@@ -354,10 +354,8 @@ footer .text-footer {
     margin-top: 70px;
 }
 
-
 /*-- Modal --*/
-
-.about-txt-Lumbarda, .about-villas-txt{
+.about-txt-Lumbarda, .about-villas-txt {
     text-indent: 2rem;
     font-family: 'Mali', cursive;
     text-align: justify ;
@@ -369,7 +367,7 @@ footer .text-footer {
     outline: none;
 }
 
-#moreAboutLumbardaTitle, #moreAboutVillaCebaloTitle, #moreAboutVillaSocolTitle{
+#moreAboutLumbardaTitle, #moreAboutVillaCebaloTitle, #moreAboutVillaSocolTitle {
     font-family: 'Mali', cursive;
     text-align: left;
     font-size: 1.2rem;
@@ -377,11 +375,11 @@ footer .text-footer {
     margin: 5px 0px 5px 5px;
 }
 
-.moreFotoBeaches{
+.moreFotoBeaches {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
-    align-content:center;
+    align-content: center;
 }
 
 .beachesFotosMore {
@@ -391,392 +389,315 @@ footer .text-footer {
 }
 
 /*-- Modal --*/
-
 @media (min-width: 350px) {
+    main .all-data-contacts {
+        font-size: 0.7rem;
+        margin-left: 10px;
+    }
 
-
-main .all-data-contacts {
-    font-size: 0.7rem;
-    margin-left: 10px;
-}
-
-main .img-icon-contacts {
-    height: 28px;
-    width: 28px;
-}
+    main .img-icon-contacts {
+        height: 28px;
+        width: 28px;
+    }
 }
 
 @media (min-width: 410px) {
-    
-main .all-data-contacts {
-    font-size: 0.9rem;
+    main .all-data-contacts {
+        font-size: 0.9rem;
     }
 
-main .img-icon-contacts {
-    height: 36px;
-    width: 36px;
+    main .img-icon-contacts {
+        height: 36px;
+        width: 36px;
+    }
 }
-}
-
-
 
 @media (min-width: 577px) {
-    
-header  .header-nav-grid {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-}
+    header .header-nav-grid {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-header .navbar-light .navbar-nav .nav-link {
-    color: #2874A6;
-    font-family: 'Bangers', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: normal;
-}
+    header .navbar-light .navbar-nav .nav-link {
+        color: #2874A6;
+        font-family: 'Bangers', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: normal;
+    }
 
-header .header-all-grid {
-       width: 100%;
-}
+    header .header-all-grid {
+        width: 100%;
+    }
 
-header .navbar-nav {
-    width: 100%;
-    display: flex!important;
-    justify-content:space-between;
-}    
+    header .navbar-nav {
+        width: 100%;
+        display: flex!important;
+        justify-content: space-between;
+    }
 
-header .nav-item {
-    text-align: center;
+    header .nav-item {
+        text-align: center;
+    }
 }
-}
-
 
 @media (min-width: 577px) {
-    
-main .all-data-contacts {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 40px 40px 40px 40px 40px 1fr;
-    grid-template-rows: 40px 40px 40px 40px;
+    main .all-data-contacts {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 40px 40px 40px 40px 40px 1fr;
+        grid-template-rows: 40px 40px 40px 40px;
+    }
+
+    main .about-villas-txt-desctop {
+        position: relative;
+        left: 0px;
+    }
+
+    main .txt-Lumbarda-forDesctop {
+        position: relative;
+        left: 0px;
+    }
+
+    main #butLumbardaNotForDesc {
+        position: absolute;
+        left: -10000px;
+    }
+
+    main #butVilaCebaloNotForDesc {
+        position: absolute;
+        left: -10000px;
+    }
+
+    main #butVilaSocolNotForDesc {
+        position: absolute;
+        left: -10000px;
+    }
+
+    main .txtNotforDesctop {
+        display: none;
+    }
+
+    main .about-villas-txt {
+        margin-bottom: 5px;
+    }
+
+    main .about-txt-Lumbarda {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main #villaCebaoForDesc {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 48% 48%;
+    }
+
+    main #villaCebaoForDescTxt {
+        display: block;
+    }
+
+    main .villaFotoCebalo {
+        display: block;
+        width: 140%;
+        left: 0%;
+        height: auto;
+        align-content: center;
+    }
+
+    main .cropVilla {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    main #gridAreaASocolVila {
+        grid-area: rightpart;
+    }
+
+    main #villaSocolForDescTxt {
+        grid-area: leftpart;
+    }
+
+    main #villaSocolForDesc {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 48% 48%;
+        grid-template-areas: "leftpart rightpart";
+    }
+
+    main #villaSocolForDescTxt {
+        display: block;
+    }
+
+    main .villaFotoSocol {
+        display: block;
+        width: 140%;
+        left: 0%;
+        height: auto;
+        align-content: center;
+    }
+
+    main .about-txt-beaches {
+        display: block;
+    }
+
+    main #fotoPrinDiv {
+        grid-area: part1;
+    }
+
+    main #fotoStinDiv {
+        grid-area: part2;
+    }
+
+    main .all-data-about-beaches {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 49% 49%;
+        grid-template-areas: "part1 part2";
+    }
+
+    main .beachesFotoSt {
+        display: block;
+        width: 140%;
+        left: 0%;
+        margin-top: 0;
+        height: auto;
+        align-content: center;
+    }
+
+    main .beachesFotoPr {
+        display: block;
+        width: 140%;
+        left: 0%;
+        height: auto;
+        align-content: center;
+    }
+
+    main #fotoPrinDiv {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    main #fotoStinDiv {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    main #btn-beachSt {
+        margin-top: 20px;
+    }
+
+    main .contact-form {
+        display: grid;
+        margin-top: 10px;
+        grid-gap: 5px;
+        grid-template-columns: 10px 200px 1fr 10px;
+        grid-template-areas: ". f1 f2 ." ". f3 f4 ." ". f5 f6 ." ". f7 f7 ."
+    }
 }
-
-main .about-villas-txt-desctop{
-    position: relative;
-	left: 0px;
-}
-    
-main .txt-Lumbarda-forDesctop{
-    position: relative;
-	left: 0px;
-}
-
-main #butLumbardaNotForDesc{
-    position: absolute;
-	left: -10000px;
-}
-
-main #butVilaCebaloNotForDesc{
-    position: absolute;
-	left: -10000px;
-}
-
-main #butVilaSocolNotForDesc{
-    position: absolute;
-	left: -10000px;
-}
-
-
-main .txtNotforDesctop{
-    display:none;
-} 
-
-main .about-villas-txt {
-    margin-bottom: 5px;
-    
-}
-
-main .about-txt-Lumbarda{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-    
-
-main #villaCebaoForDesc{
-    display:grid;
-    grid-gap: 10px;
-    grid-template-columns: 48% 48%;
-}
-
-
-main #villaCebaoForDescTxt{
-    display:block;
-}
-
-main .villaFotoCebalo {
-    display:block;
-    width: 140%;
-    left: 0%;
-    height: auto;
-    align-content:center;
-}    
-    
-main .cropVilla {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-    
-    
-main #gridAreaASocolVila{
-    grid-area: rightpart;
-} 
-
-main #villaSocolForDescTxt{
-    grid-area: leftpart;
-} 
-
-main #villaSocolForDesc{
-    display:grid;
-    grid-gap: 10px;
-    grid-template-columns: 48% 48%;
-    grid-template-areas: 
-        "leftpart rightpart";
-    
-}
-
-main #villaSocolForDescTxt{
-    display:block;
-}
-
-main .villaFotoSocol {
-    display:block;
-    width: 140%;
-    left: 0%;
-    height: auto;
-    align-content:center;
-}    
-    
-
-main .about-txt-beaches
-{
-    display:block;
-}
-
-
-main #fotoPrinDiv {
-    grid-area: part1;
-} 
-
-main #fotoStinDiv {
-    grid-area: part2;
-
-}
-
-main .all-data-about-beaches{
-    display:grid;
-    grid-gap: 5px;
-    grid-template-columns: 49% 49%;
-        grid-template-areas: 
-        "part1 part2";
-
-}
-
-
-main .beachesFotoSt {
-    display:block;
-    width: 140%;
-    left: 0%;
-    margin-top: 0;
-    height: auto;
-    align-content:center;
-
-}
-
-main .beachesFotoPr {
-    display:block;
-    width: 140%;
-    left: 0%;
-    height: auto;
-    align-content:center;
-}    
-    
-main #fotoPrinDiv {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}    
-
-main #fotoStinDiv {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}    
-
-main #btn-beachSt{
-    margin-top: 20px;
-
-}    
-
-
-main .contact-form{
-    display: grid;
-    margin-top: 10px;
-    grid-gap: 5px;
-    grid-template-columns: 10px 200px 1fr 10px;
-    grid-template-areas: 
-        ". f1 f2 ."
-        ". f3 f4 ."
-        ". f5 f6 ."
-        ". f7 f7 ."
-}        
-
-
-
-    
-}    
-
 
 @media (min-width: 750px) {
-
-main  .btn {
-    font-weight: 100;
-    font-size: 1.1rem;
-    padding: .1rem .1rem;
-    width: 100%;
-}
-
-    
-header .wrapper {
-    font-size: 2rem;
+    main .btn {
+        font-weight: 100;
+        font-size: 1.1rem;
+        padding: .1rem .1rem;
+        width: 100%;
     }
 
-header .navbar-light .navbar-nav .nav-link {
-    font-size: 1.2rem;
-}
+    header .wrapper {
+        font-size: 2rem;
+    }
 
-main .headers-on-site {
-    font-size: 1.6rem;
-}
+    header .navbar-light .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
 
-main .about-txt-Lumbarda {
-    font-size: 0.9rem;
-}
+    main .headers-on-site {
+        font-size: 1.6rem;
+    }
 
-main .about-villas-txt {
-    font-size: 0.9rem;
-}
+    main .about-txt-Lumbarda {
+        font-size: 0.9rem;
+    }
 
-main .about-txt-beaches {
-    font-size: 0.9rem;
-}    
-    
-main .href-text {
-    font-size: 1.1rem;
-}    
+    main .about-villas-txt {
+        font-size: 0.9rem;
+    }
 
-main .img-icon-contacts {
-    height: 40px;
-    width: 40px;
-}
+    main .about-txt-beaches {
+        font-size: 0.9rem;
+    }
 
-main .all-data-contacts {
-    font-size: 1.1rem;
-}    
+    main .href-text {
+        font-size: 1.1rem;
+    }
 
-main .content-in-form  {
-    font-size: 1.1rem;
-}    
+    main .img-icon-contacts {
+        height: 40px;
+        width: 40px;
+    }
 
+    main .all-data-contacts {
+        font-size: 1.1rem;
+    }
 
-main .all-data-friendlylinks{
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 180px 1fr;
-    
-}
+    main .content-in-form {
+        font-size: 1.1rem;
+    }
 
-main .button-friendlylinks{
-    font-size: 1rem;
-    width: 130px;
-    max-height: 35px;
-    
-}
+    main .all-data-friendlylinks {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 180px 1fr;
+    }
 
-main .but-submit{
-    font-size: 1rem;
-    width: 130px;
-    max-height: 35px;
+    main .button-friendlylinks {
+        font-size: 1rem;
+        width: 130px;
+        max-height: 35px;
+    }
 
-}
-
+    main .but-submit {
+        font-size: 1rem;
+        width: 130px;
+        max-height: 35px;
+    }
 }
 
 @media (min-width: 800px) {
-
-
-main .all-data-contacts {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 40px 1fr 40px 40px 40px 40px 1fr;
-    grid-template-rows: 50px 50px;
-    font-family: 'Mali', cursive;
-    font-size: 0.9rem;
-    align-items: center;
-    margin-left: 10px;
-    grid-template-areas: 
-        "c1 c2 c3 c4 c4 c4 c4"
-        "c5 c6 c7 c8 c9 c10 c11"
-       
-}
+    main .all-data-contacts {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 40px 1fr 40px 40px 40px 40px 1fr;
+        grid-template-rows: 50px 50px;
+        font-family: 'Mali', cursive;
+        font-size: 0.9rem;
+        align-items: center;
+        margin-left: 10px;
+        grid-template-areas: "c1 c2 c3 c4 c4 c4 c4" "c5 c6 c7 c8 c9 c10 c11"
+    }
 }
 
-    
 @media (min-width: 900px) {
+    main .all-data-contacts {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 40px 1fr 40px 40px 40px 40px 1fr;
+        grid-template-rows: 50px 50px;
+        font-family: 'Mali', cursive;
+        font-size: 1rem;
+        align-items: center;
+        margin-left: 10px;
+        grid-template-areas: "c1 c2 c3 c4 c4 c4 c4" "c5 c6 c7 c8 c9 c10 c11"
+    }
 
-
-main .all-data-contacts {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 40px 1fr 40px 40px 40px 40px 1fr;
-    grid-template-rows: 50px 50px;
-    font-family: 'Mali', cursive;
-    font-size: 1rem;
-    align-items: center;
-    margin-left: 10px;
-    grid-template-areas: 
-        "c1 c2 c3 c4 c4 c4 c4"
-        "c5 c6 c7 c8 c9 c10 c11"
-       
+    main .block-but-submit {
+        display: flex;
+        justify-content: center;
+    }
 }
-
-/*main  .content-in-form{
-    display: grid;
-    margin-top: 10px;
-    grid-gap: 5px;
-    grid-template-columns: 400px fr;
-    grid-template-rows: 50px fr;
-    font-family: 'Mali', cursive;
-    font-style: oblique;
-    font-weight: bold;
-    font-size: 0.9rem;
-    align-items: center;
-    margin-left: 10px;
-    background: #D2F1F4;
-}*/
-
-main .block-but-submit {
-    display: flex;
-    justify-content: center;
-}
-
-
-    
-}
-
- 
-
-    
-
